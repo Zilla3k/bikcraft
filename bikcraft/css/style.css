@@ -4,16 +4,31 @@ body {
   margin: 0;
 }
 
-ul {
+/* reset margin */
+h1,
+ul,
+p {
   margin: 0;
+}
+
+/* reset */
+ul {
   padding: 0;
   /* Remove as Bolinhas da lista */
   list-style: none;
 }
 
+/* reset */
 a {
   /* Remove o sublinhado */
   text-decoration: none;
+  /* Herdar a cor do pai */
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .header-bg {
@@ -38,7 +53,7 @@ a {
   flex-wrap: wrap; /* Para quebrar o elemento em linhas */
   gap: 40px;
 }
-/*  */
+
 .header-menu a {
   display: inline-block; /* Para nao permitir que o btn fique em cima de outro */
   padding: 16px 0px; /* Para aumentar a area de contato do botao */
@@ -91,4 +106,61 @@ a {
     padding: 8px 12px;
     font-size: 14px;
   }
+}
+
+.introducao-bg {
+  background-color: #000;
+  color: #fff;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introducao-conteudo {
+  /* Alinha o conteudo ao fim do container */
+  align-self: end;
+  padding-bottom: 80px;
+}
+.introducao h1 {
+  margin-bottom: 2rem; /* 32px */
+  font-size: 4rem; /* 64px */
+  line-height: 112%;
+}
+
+.introducao h1 span {
+  color: #ffbb00;
+}
+
+.introducao p {
+  margin-bottom: 1.25rem; /* 20px */
+  font-size: 1.5rem; /* 24px */
+  line-height: 150%;
+  color: #b2b2b2;
+}
+
+.introducao a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 4px;
+  /* X Y Blur(borrao) Font(quanto ela cresce alem do elemnto) Cor */
+  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #332200;
+  font-size: 1.125rem;
+  line-height: 133%;
+  font-weight: bold;
+}
+
+.introducao a:hover {
+  background: linear-gradient(#ffb60d, #e59317);
 }
