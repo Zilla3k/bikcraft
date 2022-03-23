@@ -1,0 +1,33 @@
+body {
+  /* Caso o site não carregue as fontes definidas */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 600px;
+}
+
+/* reset margin */
+h1,
+ul,
+p {
+  margin: 0;
+}
+
+/* reset */
+ul {
+  padding: 0;
+  /* Remove as Bolinhas da lista */
+  list-style: none;
+}
+
+/* reset */
+a {
+  /* Remove o sublinhado */
+  text-decoration: none;
+  /* Herdar a cor do pai */
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
