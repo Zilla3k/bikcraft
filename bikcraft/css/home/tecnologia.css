@@ -52,7 +52,7 @@
   margin-bottom: 8px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 810px) {
   .tecnologia-bg {
     box-shadow: initial;
   }
