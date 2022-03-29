@@ -33,8 +33,7 @@
   display: flex;
   align-items: center;
 }
-
-.botao.seta::after {
+.botao.seta::after .botao.seta::after {
   content: "";
   display: inline-block;
   width: 18px;
