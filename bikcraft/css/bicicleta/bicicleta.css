@@ -17,11 +17,11 @@
   gap: 20px;
 }
 
-.bicicleta-imagens img:first-child {
+.bicicleta-imagens img {
   min-width: 100%;
 }
 
-.bicicleta-imagens img {
+.bicicleta-imagens a {
   flex: 1;
   min-width: 200px;
 }
@@ -36,7 +36,7 @@
 
 .bicicleta-conteudo h2 {
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.015em;
   margin-bottom: 12px;
 }
 
