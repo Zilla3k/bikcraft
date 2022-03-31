@@ -24,6 +24,7 @@
 /* Contato*/
 @import "./contato/contato.css";
 @import "./contato/formulario.css";
+@import "./contato/lojas.css";
 
 /* seguros */
 @import "./seguros/seguros.css";
