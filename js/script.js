@@ -36,3 +36,8 @@ function eventosPerguntas(pergunta) {
   pergunta.addEventListener("click", ativarPergunta);
 }
 perguntas.forEach(eventosPerguntas);
+
+// Animacao
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
